@@ -21,7 +21,6 @@ data = dataset.to_pandas_dataframe()
 
 def clean_data(data):
 
-    # Clean and one hot encode data
     y = data['DEATH_EVENT']
     x = data.drop(['DEATH_EVENT'], axis = 1)
     return x ,y
