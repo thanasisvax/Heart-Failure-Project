@@ -8,25 +8,25 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from azureml.core.run import Run
 from azureml.core.dataset import Dataset
+from azureml.core import Experiment, Workspace
 from azureml.data.dataset_factory import TabularDatasetFactory
 
-# TabularDataset is located at:
+# Load dataset into data variable:
+ws = Workspace.from_config()
+ds = Dataset.get_by_name(ws, name='Heart-Failure')
+data = dataset.to_pandas_dataframe()
 
-path1 = ""
-# Load Dataset into ds
-ds = TabularDatasetFactory.from_delimited_files(path = path1)
 
 #Split Target and Features in y and x respectively in the clean_data function
 
 def clean_data(data):
 
     # Clean and one hot encode data
-    x_df = data.to_pandas_dataframe()
-    y = x_df['DEATH_EVENT']
-    x = x_df.drop(['DEATH_EVENT'], axis = 1)
+    y = data['DEATH_EVENT']
+    x = data.drop(['DEATH_EVENT'], axis = 1)
     return x ,y
 
-x, y = clean_data(ds)
+x, y = clean_data(data)
 
 # Split data into train and test sets.
 
