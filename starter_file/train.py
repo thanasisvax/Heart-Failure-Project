@@ -14,7 +14,7 @@ from azureml.data.dataset_factory import TabularDatasetFactory
 # Load dataset into data variable:
 ws = Workspace.from_config()
 ds = Dataset.get_by_name(ws, name='Heart-Failure')
-data = dataset.to_pandas_dataframe()
+data = ds.to_pandas_dataframe()
 
 
 #Split Target and Features in y and x respectively in the clean_data function
