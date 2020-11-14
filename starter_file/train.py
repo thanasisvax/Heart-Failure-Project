@@ -12,7 +12,7 @@ from azureml.core import Experiment, Workspace
 from azureml.data.dataset_factory import TabularDatasetFactory
 
 # Load dataset into data variable:
-ws = Workspace.from_config()
+ws = Workspace.get("quick-starts-ws-126078")
 ds = Dataset.get_by_name(ws, name='Heart-Failure')
 data = ds.to_pandas_dataframe()
 
