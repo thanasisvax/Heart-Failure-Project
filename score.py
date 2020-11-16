@@ -10,7 +10,7 @@ import time
 # Typically you would deserialize the model file, as shown here using joblib,
 # and store it in a global variable so your run() method can access it later.
 def init():
-    global auto_model
+    global model
     #Print statement for appinsights custom traces:
     print ("model initialized" + time.strftime("%H:%M:%S"))
 
@@ -19,7 +19,7 @@ def init():
     #model_filename = 'Automl_run.model_id' - Replace model_name with the AutoML ID.
     model_path = Model.get_model_path('AutoMLc543f296e15')
 
-    automl_model = joblib.load(model_path)   
+    model = joblib.load(model_path)   
 
 # The run() method is called each time a request is made to the scoring API.
 #
@@ -32,7 +32,7 @@ def init():
 def run(data):
     try:
         data = np.array(json.loads(data)['data'])
-        result = auto_model.predict(data)
+        result = model.predict(data)
         # Log the input and output data to appinsights:
         info = {
             "input": data,
