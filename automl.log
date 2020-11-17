@@ -1,0 +1,131 @@
+2020-11-17 17:55:13.991 - INFO - 5369 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-11-17 17:55:13.996 - INFO - 5369 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-11-17 17:55:14.014 - INFO - 5369 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-11-17 17:55:14.154 - INFO - 5369 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=139.89[ms]
+2020-11-17 17:55:14.155 - INFO - 5369 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=158.83[ms]
+2020-11-17 17:55:14.155 - INFO - 5369 - azureml.train.automl.run._log_activity:54 - ActivityStarted: DownloadModel
+2020-11-17 17:55:35.449 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-11-17 17:55:35.449 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-11-17 17:55:35.702 - INFO - 5369 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=21546.55[ms]
+2020-11-17 17:55:35.702 - INFO - 5369 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=21711.22[ms]
+2020-11-17 17:57:35.693 - INFO - 5369 - azureml.train.automl.run._log_activity:54 - ActivityStarted: RegisterModel
+2020-11-17 17:57:35.706 - INFO - 5369 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-11-17 17:57:35.864 - INFO - 5369 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=158.6[ms]
+2020-11-17 17:57:37.325 - INFO - 5369 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=1631.46[ms]
+2020-11-17 17:58:28.984 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Starting to apply transforms. Total ram: 14683119616 bytes
+2020-11-17 17:58:28.986 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:28.993 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:28.996 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:28.997 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:28.997 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.000 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.001 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:29.001 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.004 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.005 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:29.005 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.007 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.008 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:29.008 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.010 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.011 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:29.012 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.014 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.015 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973885952 bytes
+2020-11-17 17:58:29.015 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.017 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.018 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973853184 bytes
+2020-11-17 17:58:29.018 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.020 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.021 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973853184 bytes
+2020-11-17 17:58:29.021 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.023 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.024 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973853184 bytes
+2020-11-17 17:58:29.024 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.027 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.028 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973853184 bytes
+2020-11-17 17:58:29.028 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.030 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.031 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 11973853184 bytes
+2020-11-17 17:58:29.031 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 17:58:29.033 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 17:58:29.033 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Finished applying transforms
+2020-11-17 17:58:29.034 - INFO - 5369 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 14683119616 bytes, Current Available memory: 11973853184 bytes. Low memory threshold: 0.5
+2020-11-17 18:20:24.316 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Starting to apply transforms. Total ram: 14683119616 bytes
+2020-11-17 18:20:24.325 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.325 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.329 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.330 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.330 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.332 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.334 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.334 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.336 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.337 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.337 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.339 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.340 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.340 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.343 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.343 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.344 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.346 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.347 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.347 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.349 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.350 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.350 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.352 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.353 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.353 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.355 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.356 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.356 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.358 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.359 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.359 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.361 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.362 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6156558336 bytes
+2020-11-17 18:20:24.362 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:24.364 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:24.365 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Finished applying transforms
+2020-11-17 18:20:24.366 - INFO - 5369 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 14683119616 bytes, Current Available memory: 6156558336 bytes. Low memory threshold: 0.5
+2020-11-17 18:20:37.526 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Starting to apply transforms. Total ram: 14683119616 bytes
+2020-11-17 18:20:37.527 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.535 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.538 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.539 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.539 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.541 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.542 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.542 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.544 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.545 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.545 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.547 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.548 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.548 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.550 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.551 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.551 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.553 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.554 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.554 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.557 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.558 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.558 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.561 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.562 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.562 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.565 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.566 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.566 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.568 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.569 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.569 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.571 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.572 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 6155186176 bytes
+2020-11-17 18:20:37.572 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-17 18:20:37.575 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3, 1)
+2020-11-17 18:20:37.575 - INFO - 5369 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Finished applying transforms
+2020-11-17 18:20:37.576 - INFO - 5369 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 14683119616 bytes, Current Available memory: 6155186176 bytes. Low memory threshold: 0.5
