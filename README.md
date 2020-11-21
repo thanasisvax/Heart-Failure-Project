@@ -62,7 +62,7 @@ Screenshot of the RunDetails is shown below:</p>
 
 ## Model Deployment
 The model with the best accuracy is the voting Ensemble model from the automl run. Initially, I registered the model in the workspace. Then, I created the environment for my deployment to run. After that, I created the score.py file which is attached in this repository with the name: scope.py. Then, I deployed locally and then using as webservice my registered model. Finally, the webservice was tested with inputs from the test-data.csv file.</p>
-As it can be seen in the notebook, I used the json command in order to send the data in the webservice and then being processed from the score.py file to receive back a response of prediction. </p>
+As it can be seen in the notebook, I used the json command in order to send the data in the webservice and then being processed from the score.py file to receive back a response of prediction.A sample input is the first three rows of the test-data.csv file which is attached in this repository. At the end of the automl notebook, I have tested the output of the endpoint using these test-data.csv. </p>
 
 Screenshot is shown the webservice is successfully deployed:</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice-success.PNG)</p>
@@ -70,12 +70,12 @@ Screenshot is shown the webservice is successfully deployed:</p>
 Screenshot is shown the response from my webservice:</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice%20Outcome.PNG)</p>
 
-Screeshot is shown the active endpoint for the deployed model:</p>
+Screeshot is shown the active endpoint for the deployed model/It can be seen that the endpoint for the saved model is Healthy and active:</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/webservice2.PNG)</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Endpoint.PNG)</p>
 
 ## Screen Recording
-Screen recording is uploaded in the following link: https://youtu.be/5NEcYZOF4wU
+Screen recording is uploaded in the following link: https://youtu.be/Q52ZZe3HMr8
 
 ## Standout Suggestions
 I have enabled the application insights which it can be seen the successful requests and responses of my model. see screenshot below:</p>
