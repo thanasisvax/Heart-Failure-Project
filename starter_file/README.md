@@ -1,14 +1,5 @@
 # Heart Failure Project
 
-## Table of Contents
-
-<ol>
-<li>Overview</li>
-<li>Architectural Diagram</li>
-<li>Key Steps</li>
-<li>Improvements</li>
-</ol> 
-
 ## Overview
 On this project, I have used the Heart Failure dataset from Kaggle to predict the possibility of a patient to have a heart failure based on his/her medical records. This is a classification problem. I have used two different train methods to achieve the best score. One training method is using the hyperdrive to optimize the hyperparameters of the logistic regression model for the heart failure dataset. The second training method was the utilization of the azure automl to find the best model fit for the heart failure dataset.</p>
 Hyperdrive Model -> hyperparameter_tuning.ipynb </p>
