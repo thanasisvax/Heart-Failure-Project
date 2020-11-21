@@ -71,6 +71,7 @@ Screenshot is shown the response from my webservice:</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice%20Outcome.PNG)</p>
 
 Screeshot is shown the active endpoint for the deployed model:</p>
+![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/webservice2.PNG)</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Endpoint.PNG)</p>
 
 ## Screen Recording
