@@ -71,7 +71,7 @@ Screenshot is shown the response from my webservice:</p>
 ![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice%20Outcome.PNG)</p>
 
 ## Screen Recording
-Screen recording is uploaded in the following link:
+Screen recording is uploaded in the following link: https://youtu.be/5NEcYZOF4wU
 
 ## Standout Suggestions
 I have enabled the application insights which it can be seen the successful requests and responses of my model. see screenshot below:</p>
@@ -80,3 +80,5 @@ I have enabled the application insights which it can be seen the successful requ
 Improvements for my model is as such:</p>
 1. collect more data in order to avoid overfitting.</p>
 2. Try deep-learning methods in order to see if this achieves better results.
+
+Finally, for my interest, I deployed the webservice using onnx which is attached in this repository and I have explained it on my video.
