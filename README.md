@@ -64,12 +64,11 @@ Screenshot of the RunDetails is shown below:</p>
 The model with the best accuracy is the voting Ensemble model from the automl run. Initially, I registered the model in the workspace. Then, I created the environment for my deployment to run. After that, I created the score.py file which is attached in this repository with the name: scope.py. Then, I deployed locally and then using as webservice my registered model. Finally, the webservice was tested with inputs from the test-data.csv file.</p>
 As it can be seen in the notebook, I used the json command in order to send the data in the webservice and then being processed from the score.py file to receive back a response of prediction. </p>
 
-Screenshot is shown the webservice is deployed:</p>
-![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice%20Outcome.PNG)</p>
-
+Screenshot is shown the webservice is successfully deployed:</p>
+![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice-success.PNG)</p>
 
 Screenshot is shown the response from my webservice:</p>
-![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice-success.PNG)</p>
+![alt](https://github.com/thanasisvax/Heart-Failure-Project/blob/master/starter_file/Webservice%20Outcome.PNG)</p>
 
 ## Screen Recording
 Screen recording is uploaded in the following link:
